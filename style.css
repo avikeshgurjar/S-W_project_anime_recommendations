@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.site-header {
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: fit-content;
+  position:static;}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px; }
+.nav-link{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  }
+h2{color:black;font-weight: bolder;padding-left: 20px;}
+.profile{width: 30px;height: 30px;border-radius: 50% ; border: 0.5px solid white; align-items: end;}
+.hover{align-items: end;}
+.hover:hover{color: rgb(24, 43, 47);}
+.hover2:hover{color: rgb(24, 43, 47);}
+.main_content{display: flex;
+  justify-content: space-around; }
+.naruto{position: relative; padding-left: 30px; padding-top: 15px;}
+.heading{background-image: radial-gradient(to right, #bdc3c7,#2c3e50 );font-size: medium;}
+figcaption{
+  color: black;
+  font-style: italic;
+  
+  font-weight: bold;
+  
+
+}
+.add-to-list-button{background-color: transparent;}
+.jujutsu{padding-left: 30px; padding-top: 15px;}
+.solo{padding-left: 30px; padding-top: 15px;}
+.demon{padding-left: 30px; padding-top: 15px;}
+.bleach{padding-left: 30px; padding-top: 15px;}
+.one_piece{padding-left: 30px; padding-top: 15px;}
+.yourname{padding-left: 30px; padding-top: 15px;}
+.black_clover{padding-left: 30px; padding-top: 15px;}
+.one_punch_man{padding-left: 30px; padding-top: 15px;}
+
+.body-section{  background-image: linear-gradient(to right, #bdc3c7,#2c3e50 ); max-height: 200vh; }
